@@ -67,6 +67,8 @@ INTERSECT
 SELECT name, price::money AS price
 FROM play_store_apps
 ORDER BY price DESC)
+
+--this is me adding a thing
 -- b. Apps earn $5000 per month, per app store it is on, from in-app advertising and in-app purchases, regardless of the price of the app.
     --if app on apple and play then 10k per month otherwise 5k per month
 -- SELECT *, (rating * 2 +1) * 5000 AS gross
